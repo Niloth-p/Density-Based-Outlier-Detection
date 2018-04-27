@@ -19,16 +19,16 @@ python Outlier.py
 Global variables:
     first_time - If run for the first time, the distance matrix is computed after reading the data from the dataset, and is written to a pickle file called "distancematrix". If it is set to false, the distance matrix is directly read from the pickle file.
 
-    filename - The name of the data file
+   filename - The name of the data file
 
-    parameters - a list of pairs of k and O values, for which the outlier detection is done
+   parameters - a list of pairs of k and O values, for which the outlier detection is done
 
 Parameters: 
     k - to get kNN, kdist, and hence LOF (here, it doesn't seem to affect the accuracy!?)
     O - Number of outliers (higher the number of outliers, higher the precision and recall seem to be)
     N - len(data) (= 1000 for the given dataset)
 
-    The Precision averages around 0.62, and the Recall linearly increases with increase in O (!?)
+   The Precision averages around 0.62, and the Recall linearly increases with increase in O (!?)
 
 The plotting of the PR curve has been commented out.
 
