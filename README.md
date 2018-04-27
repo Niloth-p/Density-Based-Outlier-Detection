@@ -1,16 +1,17 @@
 # Density-Based-Outlier-Detection
 Description
-An implementation of a density based outlier detection method - the Local Outlier Factor Technique,
-to find frauds in credit card transactions (here) using Python. For detecting both local and global outliers.
+
+    An implementation of a density based outlier detection method - the Local Outlier Factor Technique,
+    to find frauds in credit card transactions (here) using Python. For detecting both local and global outliers.
 
 Dataset Used:
-German Credit Data
-Professor Dr. Hans Hofmann  
-Institut f"ur Statistik und "Okonometrie  
-Universit"at Hamburg  
-numerical attributes, Strathclyde University 
-produced the file "german.data-numeric".
-(1 = Good, 2 = Bad)
+    
+    German Credit Data
+    Professor Dr. Hans Hofmann  
+    Institut f"ur Statistik und "Okonometrie  
+    Universit"at Hamburg  
+    numerical attributes - file "german.data-numeric", by Strathclyde University 
+    (1 = Good, 2 = Bad)
 
 How to run:
 
